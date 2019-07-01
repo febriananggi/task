@@ -1,0 +1,68 @@
+.form {
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.form-content {
+	width: 450px;
+	margin: 0 auto;
+}
+.get-form {
+	width: 200px;
+	height: 60px;
+	margin-top: 20px !important;
+	margin: 0 auto;
+	border: 3px solid blue;
+	border-radius: 30px;
+	color: blue;
+	outline: none; 
+}
+.get-form:focus, .grt-form:hover {
+	background-color: blue; color: white;
+}
+h3 {
+	margin-top: 0; margin-bottom: 0;
+	line-height: 50px;
+	text-align: center;
+}
+a[href] {
+	text-decoration: none;
+}
+
+/* ============ GET FORM ============== */
+
+.selection {
+	width: 500px;
+	height: 500px;
+	position: absolute; top: 50%; left: 50%; 
+	transform: translate(-50%, -50%);
+	background-color: transparent;
+	/* border: 3px solid blue; border-radius: 20px; */
+}
+.container-selection {
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+	/* padding: 10px; */
+	/* background-color: black; */
+}
+button.formGroup {
+	display: block;
+	width: 400px;
+	height: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border: 3px solid blue;
+	border-radius: 30px;
+	color: blue;
+	font-size: 20pt; 
+}
+.formGroup:focus, .formGroup:hover {
+	background-color: blue;
+	color: white;
+}

@@ -1,0 +1,133 @@
+
+.form_login {
+	width: 400px;
+	height: auto;
+	padding: 30px;
+	position: absolute; top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #333333; color: white;
+	box-shadow: 0 15px 15px rgba(0,0,0,.5);
+}
+.content {
+	width: 300px;
+	margin: 0 auto;
+	/* background-color: white; */
+}
+.login {
+	/* border-bottom: 10px solid blue; */
+	width: 100px;
+	/* margin-left: 80px; */
+	padding-bottom: 0px;
+	margin: 0 0 30px 40px;
+	border-bottom: 5px solid blue;
+}
+h1 {
+	font-size: 30pt;
+	text-align: center !important;
+	
+}
+input.inputGroup {
+	display: inline-block;
+	width: 200px;
+	outline: none;
+	border: none;
+	background: transparent !important;
+	margin-left: 10px;
+	color: white;
+}
+.user {
+	overflow: hidden;
+	border-bottom: 1px solid blue;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	margin-left: 40px;
+}
+.password {
+	border-bottom: 1px solid blue;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	margin-left: 40px;
+}
+.btn-login {
+	width: 250px;
+	border: 2px solid blue;
+	color: white; background-color: transparent;
+	font-size: 20pt;
+	margin-left: 45px;
+}
+.btn-login:focus, .btn-login:hover {
+	background-color: blue;
+}
+
+/* ============ FORM BARANG ============= */
+
+#container {
+	padding: 0 30px !important;
+	margin: 0px;
+}
+.kontent {
+	width: 900px;
+	height: auto;
+	padding: 30px;
+}
+h1 span {
+	color: blue;
+}
+.line {
+	height: 1px;
+	background-color: black;
+	margin-bottom: 30px;
+}
+.nav-left {
+	/*padding: 5px;
+	background-color: black;*/
+	margin-bottom: 30px;
+}
+h3 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+	color: red;
+}
+.tampil-tabel {
+	margin-top: 20px;
+}
+.pesan {
+	width: 500px;
+	background-color: #C0FFA9;
+	padding: 10px 15px;
+	margin: 20px auto;
+	border: 1px solid green;
+	box-shadow: 1px 0px 3px green;
+	text-align: center;
+}
+.pesan-empty {
+	width: 500px;
+	background-color: red;
+	padding: 10px 15px;
+	margin: 20px auto;
+	border: 1px solid red;
+	box-shadow: 1px 0px 3px red;
+	text-align: center;
+}
+th {
+	background-color: black;
+	color: white;
+}
+
+/*====================*/
+/*=== FROM TAMBAH ====*/
+/*====================*/
+div.col-sm-10 {
+	margin-bottom: 10px;
+}
+input[value="Keluar"] {
+	padding-left: 10px;
+}
+input[value="Perempuan"] {
+	padding-left: 10px;
+}
+span.radio-btn {
+	padding-left: 5px;
+}
